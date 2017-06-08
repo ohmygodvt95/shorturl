@@ -14,3 +14,7 @@
  *= require_tree .
  *= require_self
  */
+/*custom navbar*/
+.navbar-default {
+  padding: 10px 0;
+}
