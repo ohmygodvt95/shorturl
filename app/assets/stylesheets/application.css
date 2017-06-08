@@ -17,5 +17,10 @@
  */
 /*custom navbar*/
 .navbar-default {
+  margin-bottom: 0;
   padding: 10px 0;
+  background-color: #ffffff;
+}
+body {
+  font-family: 'Roboto', sans-serif;
 }
