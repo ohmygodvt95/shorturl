@@ -5,5 +5,7 @@ en:
       _header:
         about_us: About us
         more_service: More services
+        sign_in: Sign in
+        logout: Logout
     pages:
       show:
