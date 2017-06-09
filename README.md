@@ -1,24 +1,24 @@
-# README
+# Shortener URLs
+Short URLs like goo.gl project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### About project
+- Author: LengKeng
+- Email : ohmygodvt95@gmail.com
+- Ruby 2.4.0 and Rails 5.1.1
 
-Things you may want to cover:
+### How to deploy
+- Clone this project
+- Fix Gemfile with your database
+- Run `rails db:migrate`
+- Add your info in `config/settings.yml` for facebook, google sign in
 
-* Ruby version
+  ```jade
+  auth:
+    facebook:
+      APP_ID: xxx
+      APP_SECRET: xx
+    google:
+      APP_ID: "xxx"
+      APP_SECRET: "xxx"
+- Run `rails s` to start server
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
