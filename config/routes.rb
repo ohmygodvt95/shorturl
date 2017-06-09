@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get "/pages/:act" => "pages#show"
 
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
-
+  resources :history, only: :index
   namespace :api do
     namespace :v1 do
       resources :shorten, only: [:index, :show, :create]

@@ -31,9 +31,10 @@
             <i class="fa fa-fw fa-copy copy" data="#" data-toggle="tooltip" data-placement="bottom" title="Copy short URL"></i>
           </h4>
           <hr>
-          <a href="#" class="analytics">See analytics data</a>
+          <a href="#" class="analytics">See analytics data <i class="fa fa-fw fa-external-link"></i></a>
           <br>
-          <small><a href="#" class="origin_view">Origin URL</a></small>
+          <br>
+          <small>Original URL: <br><a href="#" class="origin_view">Origin URL</a></small>
         </div>
       </div>
     </div>
@@ -43,7 +44,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h2>Top 10 latest interaction:</h2>
+        <h2>Top 10 latest interaction <a href="<%= history_index_path %>" class="pull-right">See your list URLs</a></h2>
         <table class="table table-striped table-hover">
           <thead>
           <tr>
@@ -70,4 +71,6 @@
       </div>
     </div>
   </div>
+<% else %>
+  <%= render "pages/intro" %>
 <% end %>
