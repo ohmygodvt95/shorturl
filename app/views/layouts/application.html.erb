@@ -4,8 +4,27 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-language" content="vi" />
+    <meta name="robots" content="noodp,index,follow" />
+    <meta name="description" content="Short URLs | Shorten your URL so it’s ready to be shared everywhere. @author by LengKeng" />
+    <meta name="keywords" content="Le Vinh Thien, LVT, LengKeng, vinhthien, Home, vinhthien.name.vn, student, software engineer, university, personal website, short, shortener, Urls" />
+    <meta property="og:title" content="Short URLs | Shorten your URL so it’s ready to be shared everywhere. @author by LengKeng" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= root_url %>" />
+    <meta property="og:image" content="<%= asset_path "img.png" %>" />
+    <meta property="og:description" content="Short URLs | Shorten your URL so it’s ready to be shared everywhere. @author by LengKeng" />
+    <meta property="og:site_name" content="Short URLs | Shorten your URL so it’s ready to be shared everywhere. @author by LengKeng" />
+    <meta property="fb:admins" content="ohmygodvt95" />
+    <meta name="twitter:card" content="Short URLs | Shorten your URL so it’s ready to be shared everywhere. @author by LengKeng">
+    <meta name="twitter:site" content="@ohmygodvt95">
+    <meta name="twitter:title" content="Short URLs | Shorten your URL so it’s ready to be shared everywhere. @author by LengKeng">
+    <meta name="twitter:description" content="Short URLs | Shorten your URL so it’s ready to be shared everywhere. @author by LengKeng">
+    <meta name="twitter:creator" content="@ohmygodvt95">
+    <link rel="canonical" href="<%= root_url %>"/>
     <title><%= full_title(yield :title) %></title>
     <%= csrf_meta_tags %>
+    <link href="<%= asset_path "favicon.png" %>" rel="shortcut icon" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
