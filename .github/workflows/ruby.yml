@@ -16,5 +16,5 @@ jobs:
           rubocop_version: gemfile
           rubocop_extensions: rubocop-rails:gemfile rubocop-rspec:gemfile
           reporter: github-pr-review # Default is github-pr-check
-          rubocop_flags: --config ./rubocop.yml app/
+          rubocop_flags: --config ./rubocop.yaml app/
           github_token: ${{ secrets.GITHUB_TOKEN }}
